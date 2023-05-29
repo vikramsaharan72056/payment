@@ -1,0 +1,229 @@
+.row{
+    display: flex;
+    width:100vw;
+    height: 93vh;
+    background-color: #000029;
+    
+}
+
+#cross{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+.img{
+    width: 60px;
+    height: 60px;
+    margin-top: 12px;
+}
+.bluetyga{
+    color: blue;
+    font-size: 32px;
+}
+.whiteramp{
+    color: white;
+    font-size: 32px;
+}
+.sectionStyle{
+    display:flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#card{
+    height: 83vh;
+    margin:5%;
+}
+.insider{
+    height: 60px;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    margin:0% 3%;
+    margin-bottom:4%;
+    border:3px solid burlywood;
+    border-radius: 10px;
+    
+    
+}
+.insider :checked{
+    height: 100px;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    margin:0% 5%;
+    margin-bottom:3%;
+    border:1px solid green;
+    border-radius: 10%;
+}
+#bluetip{
+    display: flex ;
+    padding:4%
+}
+#tipcl1 {
+    margin-left: 12%;
+    font-weight: 700;
+    font-size: large;
+    
+}
+#tipcl2 {
+    margin-left:45%;
+    font-weight: 700;
+    font-size: large;
+}
+.tip {
+    display: inline-block;
+    padding: 15px 15px;
+    border-radius: 50%;
+    background-color:  #0067FF;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    
+    
+}
+.price{
+    float:right;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 3%;
+    margin-top:-3%;
+    
+}
+.norm{
+    margin-top: 3%;
+}
+.end{
+    margin-top:-6%;
+}
+
+  
+.tiptext {
+   margin-left:-15%
+}
+#heading{
+    margin: auto;
+    width: 50%;
+    font-weight: bold;
+    padding: 10px;
+    font-size: large;
+}
+#offer{
+    float:top;
+    background-color: red;
+    border-radius:10px;
+    width:35%;
+    margin-left: 15%;
+    color:white;
+    padding:0% 4%;
+    font-weight:bold;
+    font-size: 14px;
+    
+
+}
+#recomm{
+    float:top;
+    background-color: green;
+    border-radius:10px;
+    width:35%;
+    margin-left: 15%;
+    color:white;
+    padding:0% 3%;
+    font-weight:bold;
+    font-size: 14px;
+
+}
+.with-gap{
+  padding:4%  
+}
+#subs{
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 4% 2%;
+        font-weight: bold;
+        font-size: 18px;
+    
+}
+#subs-price{
+    float: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#limit{
+    border:3px solid red;
+    height: 60px;
+    margin: 0% 3%;
+    border-radius: 10px;
+    display: flex;
+    background-color: #f0e2e2;
+    margin-bottom: 3%;
+    
+}
+#limit-limit{
+    color:red;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+#limit-img{
+    width: 20px;
+    height: 20px;
+}
+#limit-bold{
+    font-weight: bold;
+}
+#limit-price{
+    float: right;
+    
+}
+#cancel{
+    border:2px solid red;
+    color:red;
+    background-color: white;
+    font-weight: bold;
+    padding:10px;
+    width:40%;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+#proceed{
+    
+    color:white;
+    font-weight: bold;
+    background-color: green;
+    width:45%;
+    margin-right: 5%;
+    border-radius: 5px;
+
+}
+#banker{
+    margin-top:3%;
+ width:100px;   
+ margin-left: 5%;
+}
